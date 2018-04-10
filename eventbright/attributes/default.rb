@@ -5,7 +5,7 @@ default['nginx']['default_site_enabled'] = false
 
 default[:eventbright][:git_repository] = "https://github.com/MikeSalisbury/eventbright"
 default[:eventbright][:git_revision] = "master"
-default[:eventbright][:path] = "/opt/spooky"
+default[:eventbright][:path] = "/opt/eventbright"
 
 default[:eventbright][:rails_env] = "production"
 default[:eventbright][:log_to_stdout] = "true"
