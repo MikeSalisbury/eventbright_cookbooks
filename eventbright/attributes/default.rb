@@ -3,7 +3,7 @@ default['nodejs']['version'] = "6.10.1"
 default['nodejs']['npm']['version'] = "5.2.0"
 default['nginx']['default_site_enabled'] = false
 
-default[:eventbright][:git_repository] = "https://github.com/MikeSalisbury/eventbright"
+default[:eventbright][:git_repository] = "https://github.com/MikeSalisbury/eventbright/"
 default[:eventbright][:git_revision] = "master"
 default[:eventbright][:path] = "/opt/eventbright"
 
